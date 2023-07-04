@@ -25,6 +25,6 @@ $language->load('com_jce', JPATH_ADMINISTRATOR);
 $icon = 'header/icon-48-media.png';
 
 $link = WFBrowserHelper::getBrowserLink();
-echo '<div class="'.$class_sfx.'"><a href="'.$link.'" class="modal button btn btn-small" rel="{handler: \'iframe\', size: {x: 875, y: 550}, onClose: function() {}}">'.'<i class="icon-pictures"></i>'.JText::_('WF_QUICKICON_BROWSER').'</a></div>';
+echo '<div class="btn-group'.$class_sfx.'"><a href="'.$link.'" class="modal button btn btn-small" rel="{handler: \'iframe\', size: {x: 875, y: 550}, onClose: function() {}}">'.'<i class="icon-pictures"></i>'.JText::_('WF_QUICKICON_BROWSER').'</a></div>';
 
 ?>
